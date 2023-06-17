@@ -1,0 +1,27 @@
+.importancia  {
+    padding: 10rem 7rem;
+    text-align: center;
+}
+
+.importancia__titulo {
+    font-size: 40px;
+}
+
+.importancia__texto {
+    padding: 1rem;
+    font-size: 23px;
+}
+
+@media screen and (max-width: 425px) {
+    .importancia {
+        padding: 5rem 3rem;
+    }
+
+    .importancia__titulo {
+        font-size: 30px;
+    }
+
+    .importancia__texto {
+        font-size: 20px;
+    }
+}

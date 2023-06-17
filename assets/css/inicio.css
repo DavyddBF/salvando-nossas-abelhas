@@ -1,0 +1,40 @@
+.inicio {
+    background-image: url('https://images4.alphacoders.com/718/71846.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.inicio div {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.inicio__titulo {
+    margin: 0 7rem;
+    color: var(--fonte-branca);
+    font-size: 45px;
+}
+
+.inicio__texto {
+    font-size: 20px;
+    color: var(--fonte-branca);
+}
+
+@media screen and (max-width: 425px) {
+    .inicio {
+        height: 50vh;
+    }
+
+    .inicio__titulo {
+        font-size: 25px;
+        margin: 0 3rem;
+    }
+}

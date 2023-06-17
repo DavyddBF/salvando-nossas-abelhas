@@ -1,0 +1,17 @@
+:root {
+    --cor-de-fundo: #ffc20f;
+    --fonte-preta: #000;
+    --fonte-branca: #fff;
+    --fonte-bebas: 'Bebas Neue', sans-serif;
+    --fonte-montserrat: 'Montserrat', sans-serif;
+    --hover-text: #3f3f3f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fonte-montserrat);
+}

@@ -1,0 +1,33 @@
+.curiosidade {
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+	background-color: var(--cor-de-fundo);
+	padding: 0 7rem;
+}
+
+.curiosidade div {
+	text-align: center;
+	padding: 2rem 1rem 0 1rem;
+}
+
+.curiosidade__imagem {
+	height: 100px;
+	width: 100px;
+}
+
+.curiosidade__texto {
+	padding: 2rem 1rem 2rem 0;
+	font-size: 17px;
+}
+
+@media screen and (max-width: 1024px) {
+	.curiosidade {
+		padding: 0 5rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.curiosidade {
+		display: block;
+	}
+}
